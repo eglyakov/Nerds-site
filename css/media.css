@@ -1,0 +1,222 @@
+@media (max-width: 1024px) {
+
+    .slides .slide1,
+    .slides .slide2,
+    .slides .slide3 {
+        height: 700px;
+        background-size: contain;
+    }
+
+    .feedback-form .form {
+        padding: 40px 60px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .header .nav {
+        order: -1;
+    }
+
+    .header .burger {
+        display: block;
+    }
+
+    .header .nav ul {
+        flex-direction: column;
+        display: none;
+        width: 30%;
+        min-width: 200px;
+        text-align: center;
+
+        background-color: rgba(192, 189, 189, 0.95);
+        border-radius: 4px;
+        border: 2px solid black;
+
+
+        position: absolute;
+        z-index: 1;
+        top: 120px;
+    }
+
+    .header .nav:hover ul {
+        display: block;
+    }
+
+    .header .nav ul li:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .header .nav li a {
+        width: calc(100% - 40px);
+        display: inline-block;
+        border-bottom: 1px solid #000;
+        /* color: #fff; */
+        padding: 10px 20px;
+    }
+
+    .studio .wrapper {
+        flex-direction: column;
+    }
+
+    .studio .skills {
+        margin: 20px auto 0 auto;
+    }
+
+    .logos .list {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+
+    .logos .list .item {
+        margin-bottom: 30px;
+    }
+
+    .logos .list .item .border {
+        display: none;
+    }
+
+    .footer .wrapper {
+        flex-direction: column;
+    }
+
+    .footer .social {
+        margin-bottom: 30px;
+    }
+
+    .feedback-form .title h3 {
+        font-size: 25px;
+    }
+
+    .feedback-form .form {
+        padding: 20px 30px;
+        width: 570px;
+    }
+
+    .feedback-form .item, 
+    .feedback-form .text {
+        margin-top: 15px;
+    }
+
+    .feedback-form .button {
+        margin-top: 15px;
+        padding: 10px 40px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .header .basket {
+        background-image: none;
+        background-repeat: no-repeat;
+        padding-left: 0;
+    }
+
+    .slides .slide1,
+    .slides .slide2,
+    .slides .slide3 {
+        height: 500px;
+    }
+
+    .slides .text {
+        margin: 40px 0;
+    }
+
+    .slides .text h2 {
+        font-size: 40px;
+    }
+
+    .advantage h3 {
+        margin: 15px 0;
+    }
+
+    .advantage .button {
+        margin-top: 15px;
+    }
+
+    .advantage .list {
+        padding: 10px 0 40px;
+    }
+
+    .slides .text p {
+        margin: 15px 0 20px;
+    }
+
+    .studio .wrapper {
+        padding: 40px 0;
+    }
+
+    .studio .about h2 {
+        font-size: 35px;
+    }
+
+    .studio .about p {
+        margin: 25px 0;
+    }
+
+    .studio .about .list .item {
+        margin-top: 20px;
+    }
+
+    .studio .skills p {
+        margin: 25px 0 20px;
+    }
+
+    .studio .skills .percent {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .contacts .map {
+        margin-top: 0px;
+    }
+
+    .contacts .info {
+        position: static;
+        padding: 30px;
+    }
+
+    .feedback-form {
+        opacity: 0.95;
+    }
+
+    .feedback-form .contact input {
+        width: 240px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .studio .skills img {
+        max-width: 330px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .advantage img {
+        width: 290px;
+    }
+
+    .studio .skills img {
+        width: 290px;
+    }
+
+    .studio .skills .list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .studio .skills .list .item {
+        margin-top: 20px;
+    }
+
+}
